@@ -1,0 +1,97 @@
+body {
+	font-family: ;
+}
+
+#mainTitle {
+	font-size: 390%;
+	color: #e6e6f7;
+	text-shadow: 1px 2px 6px black;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+#mainNav {
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin:0;
+	/*Diff backgrounds for each broswer*/
+	background: -webkit-linear-gradient(black, blue); 
+	background: -o-linear-gradient(black, blue); 
+	background: -moz-linear-gradient(black, blue); 
+	background: linear-gradient(black, #000096); 
+	color: white;
+	-webkit-box-shadow: 0 13px 9px -9px black;
+	-moz-box-shadow: 0 13px 9px -9px black;
+	box-shadow: 0 13px 9px -9px black;
+}
+
+
+input {
+	color: blue;
+}
+
+p {
+	font-size: .9em;
+}
+
+img {
+	box-shadow: 1px 3px 9px #000;
+}
+
+#searchOrCreate {
+	text-align: center;
+	color: blue;
+	margin: 2em 3em; 
+}
+
+.btn:hover {
+	font-weight: bold;
+	color: blue;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+
+#createNew, #inputEdits {
+	text-align: center;
+	margin-bottom: 1.3em;
+
+}
+
+#displayHeroes {
+	position: relative;
+	top: 14.7em;
+	text-align: center;
+	z-index: -1;
+	width: 100%;
+
+}
+
+#heroes {
+	text-align: center;
+	margin: 9px auto;
+	padding: 13px;
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media(max-width:767px) { 
+
+	#mainTitle {
+		font-size: 279%;
+	}
+
+	#displayHeroes {
+		top: 14em;
+	}
+
+	img {
+		height: auto;
+		width: 230px;
+	}
+
+}

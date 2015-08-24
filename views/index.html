@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Super Doers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap_theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/site.css">
+</head>
+<body>
+	<div class="container-fluid">
+		
+		<div id="mainNav">
+			<h1 id="mainTitle">Super Doers</h1>
+
+			<div id="searchOrCreate">
+
+				<button class="btn" id="searchBtn"><span class="glyphicon glyphicon-search"></span>   SEARCH</button><input class="search"  type="text" placeholder="Look Up Super Hero">
+				<button class="search">OK</button>
+				<button class="btn" id="createBtn"><span class="glyphicon glyphicon-star"></span>   CREATE</button>
+
+			</div>
+			
+			<div id="createNew">
+				
+				<h4>Enter New Super Hero Info Below</h4>
+				<input id="picture" type="img" placeholder="Picture...">
+				<input id="realName" type="text" placeholder="Real Name...">
+				<input id="heroName" type="text" placeholder="Hero Name...">
+				<input id="powers" type="text" placeholder="Powers...">
+				<button class="btn btn-success btn-xs" onclick="createHero()">DONE</button>
+
+			</div>
+
+			<div id="inputEdits">
+				
+			</div>
+
+		</div>
+
+
+
+		<div id="displayHeroes">
+			
+
+		</div>
+
+	</div>
+	<script src="/jquery/dist/jquery.js"></script>
+	<script src="/javascript/app.js"></script>
+
+</body>
+</html>
